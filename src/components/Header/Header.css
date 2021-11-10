@@ -8,7 +8,12 @@
     height: 50px;
 }
 .title-container{
-    color: rgba(255, 255, 255, 0.699);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3em;
+}
+.title-container2{
+    color: rgba(255, 255, 255, 0.63);
     text-align: center;
     font-size: 2em;
 }
@@ -25,4 +30,15 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.877);
     font-weight: bold;
+  }
+  .logout{
+      color: rgb(220, 20, 97);
+      background: linear-gradient(to bottom right, #66ffff 17%, #ff99ff 83%);
+     font-weight: 800;
+      margin-left: 5px;
+      margin-right: 5px;
+      border: 3px solid rgba(238, 114, 12, 0.719);
+      border-radius: 20px;
+      padding-left:30px;
+      padding-right:30px;
   }

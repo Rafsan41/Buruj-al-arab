@@ -1,0 +1,20 @@
+.register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid slateblue;
+    padding: 30px;
+    margin: 20px 300px 20px 300px;
+    border-radius: 15px;
+
+
+}
+
+.register-form input {
+    width: 350px;
+    padding: 6px;
+    border: 3px solid slategrey;
+    border-radius: 20px;
+
+
+}

@@ -1,6 +1,7 @@
 .login-form{
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 5px solid slateblue;
     padding: 30px;
     margin:20px 300px 20px 300px;
@@ -10,9 +11,32 @@
 }
 .login-form input{
 width:350px;
-padding: 10px;
+padding: 6px;
 border:3px solid slategrey;
 border-radius: 20px;
 
+}
+.forgot-password{
+    margin-left: 10px;
+    border: 3px solid salmon;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 80px;
+    
+    width: 90px;
+}
+.route-register h4{
+padding: 10px;
+color:rgb(189, 90, 58);
 
+}
+.link{
+    text-decoration: none;
+    color:rgb(192, 168, 32) ;
+}
+.btn-regular {
+ width: 350px;
+ padding: 6px;
+ border:3px solid rgb(44, 196, 150);
+ border-radius: 19px;
 }
